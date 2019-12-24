@@ -4,6 +4,7 @@ import "../../App.css";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Map from "./map";
+import PhotoList from './LeftPanel/PhotoList'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,6 +28,7 @@ export default function CenteredGrid() {
       <Grid container spacing={3}>
         <Grid item xs={4}>
           <Paper className={classes.paper}>
+            <PhotoList />
           </Paper>
         </Grid>
         <Grid item xs={8}>
