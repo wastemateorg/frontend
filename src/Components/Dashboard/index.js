@@ -4,7 +4,6 @@ import "../../App.css";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Map from "./map";
-import PhotoUploader from "./LeftPanel/photo";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -28,7 +27,6 @@ export default function CenteredGrid() {
       <Grid container spacing={3}>
         <Grid item xs={4}>
           <Paper className={classes.paper}>
-            <PhotoUploader />
           </Paper>
         </Grid>
         <Grid item xs={8}>

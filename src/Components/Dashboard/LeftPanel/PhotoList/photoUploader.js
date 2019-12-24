@@ -3,7 +3,7 @@ import "../../../App.css";
 import EXIF from "exif-js";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { updatePhoto } from "../../../Redux/Actions/addPhoto";
+import { updatePhoto } from "../../../../Redux/Actions/addPhoto";
 
 class PhotoUpload extends Component {
   //   constructor() {
