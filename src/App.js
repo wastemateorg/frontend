@@ -8,10 +8,10 @@ import SlideShow from "./LoginPage/loginForm/loginForm";
 function App() {
   return (
     <div>
-      {/* <AppBar />
-      <Dashboard /> */}
-      <Navtab />
-      <SlideShow />
+      <AppBar />
+      <Dashboard />
+      {/* <Navtab />
+      <SlideShow /> */}
     </div>
   );
 }
