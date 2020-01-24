@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../../App.css";
+import "./App.css";
 import EXIF from "exif-js";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";

@@ -4,7 +4,7 @@ import "../../App.css";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Map from "./map";
-import PhotoList from "./LeftPanel/PhotoList";
+import PhotoList from "./LeftPanel/PhotoList/photoUploader";
 
 const useStyles = makeStyles(theme => ({
   root: {
